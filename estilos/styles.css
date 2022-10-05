@@ -1,0 +1,21 @@
+:root{
+    /* Colores */
+    --blue: #0095f6;
+    --dark-blue: #385185;
+    --dark-blue-password: #00376b;
+    --blue-Sign-up: #2795f6;
+    --text: #262626;
+    --grey: #8e8e8e;
+    --main-text: #fafafa;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
