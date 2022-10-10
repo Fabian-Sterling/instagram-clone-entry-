@@ -7,6 +7,7 @@
     --text: #262626;
     --grey: #8e8e8e;
     --main-text: #fafafa;
+    --fondo:  
 }
 
 *{
@@ -18,4 +19,40 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: var(--main-text);
+}
+
+.main .container-img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+   
+}
+
+.container-img-logo .img-logo {
+    width: 17rem;
+    height: 7rem;
+}
+
+.form .form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+}
+
+form .form--input {
+    width: 200px;
+    
 }
