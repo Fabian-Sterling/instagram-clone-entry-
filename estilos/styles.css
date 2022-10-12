@@ -22,37 +22,70 @@ html{
 }
 
 .main {
+    width: 100%;
     display: flex;
-    justify-content: center;
     text-align: center;
     flex-direction: column;
-    background-color: var(--main-text);
 }
 
 .main .container-img-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 90%;
     min-width: 320px;
     height: 150px;
-   
 }
 
 .container-img-logo .img-logo {
     width: 17rem;
-    height: 7rem;
+    height: 7rem;  
 }
 
 .form .form-container {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    width: 100%;
-    min-width: 320px;
+    width: 90%;
+    min-width: 320px;   
 }
 
-form .form--input {
-    width: 200px;
+.form-container .form--input {
+    width: 70%;
+    height: 30px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--main-text);
+}
+
+.form-container .form--button {
+    width: 70%;
+    height: 25px;
+    margin: 5px auto;
+    border: none;
+    border-radius: 5px;
+    color: var(--main-text);
+    background-color: var(--blue);
+}
+
+.container--divisor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container--divisor div {
+    width: 50%;
+    height: 1px;
+    background-color: var(--grey);
     
+}
+
+.container--divisor .divisor {
+    color: var(--grey);
+}
+
+.login--alternative--container {
+    width: 90%;
 }
