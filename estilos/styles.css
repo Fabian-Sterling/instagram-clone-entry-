@@ -90,3 +90,17 @@ html{
 .login--alternative--container {
     width: 100%;
 }
+
+.login--alternative--container .login--alternative {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.login--alternative .alternative--link {
+    color: var(--dark-blue-password);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
