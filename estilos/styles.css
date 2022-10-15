@@ -26,33 +26,34 @@ html{
     display: flex;
     text-align: center;
     flex-direction: column;
+    
 }
 
 .main .container-img-logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
     min-width: 320px;
     height: 150px;
 }
 
 .container-img-logo .img-logo {
-    width: 17rem;
-    height: 7rem;  
+    width: 170px;
+    height: 70px;  
 }
 
-.form .form-container {
+.main .form-container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     min-width: 320px;   
 }
 
 .form-container .form--input {
     width: 70%;
     height: 30px;
-    margin: 10px auto;
+    margin: 5px auto;
     border: none;
     border-radius: 5px;
     background-color: var(--main-text);
@@ -61,7 +62,7 @@ html{
 .form-container .form--button {
     width: 70%;
     height: 25px;
-    margin: 5px auto;
+    margin: 15px auto;
     border: none;
     border-radius: 5px;
     color: var(--main-text);
@@ -76,10 +77,10 @@ html{
 }
 
 .container--divisor div {
-    width: 50%;
+    width: 29%;
     height: 1px;
     background-color: var(--grey);
-    
+    margin: 0 15px;
 }
 
 .container--divisor .divisor {
@@ -87,5 +88,5 @@ html{
 }
 
 .login--alternative--container {
-    width: 90%;
+    width: 100%;
 }
