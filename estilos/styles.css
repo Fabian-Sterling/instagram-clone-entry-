@@ -7,7 +7,6 @@
     --text: #262626;
     --grey: #8e8e8e;
     --main-text: #fafafa;
-    --fondo:  
 }
 
 *{
@@ -26,7 +25,7 @@ html{
     display: flex;
     text-align: center;
     flex-direction: column;
-    
+    background-color: var(--main-text);
 }
 
 .main .container-img-logo {
@@ -85,6 +84,8 @@ html{
 
 .container--divisor .divisor {
     color: var(--grey);
+    font-weight: 200;
+    font-size: 1.7rem;
 }
 
 .login--alternative--container {
@@ -100,7 +101,83 @@ html{
 .login--alternative .alternative--link {
     color: var(--dark-blue-password);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5rem;
     margin: 10px 0;
+}
+
+.alternative--link .fa-brands {
+    margin-right: 8px;
+}
+
+.login--alternative .alternative--link__small{
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin-top: 12px;
+    color: var(--dark-blue-password);
+}
+
+.login--alternative .login--alternative--Registration {
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.login--alternative--Registration a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--blue-Sign-up);
+}
+
+.section--downloads {
+    margin-bottom: 50px;
+}
+
+.section--dowloads--title h3 {
+    font-size: 1.4rem;
+    font-weight: 200;
+    margin: 25px 20px 20px 20px;
+}
+
+.section--dowloads--container img {
+    width: 40%;
+    margin-right: 4px;
+}
+
+.section--dowloads--container2 img {
+    width: 40%;
+    margin-left: 4px;
+}
+
+.footer {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--main-text);
+    padding: 15px;
+}
+
+.footer .footer--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer--list .footer--list--container {
+    margin: 5px 8px 5px 8px;
+}
+
+.footer--list--container a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.footer .footer--list2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px 0;
 }
