@@ -9,32 +9,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./estilos/styles.css">
-    <link rel="stylesheet" href="./estilos/MobilL.css" media="(min-width: 425px)">
+    <link rel="stylesheet" href="./css/MobilL.css" media="(min-width: 425px)">
+    <link rel="stylesheet" href="./css/Tablet.css" media="(min-width: 768px)">
     <script src="https://kit.fontawesome.com/cdbe1d4384.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main class="main">
-        <section class="container-img-logo">
-           <img class="img-logo" src="./Imagenes/Instagram_logo.svg.png" alt="Es el logo de instagram">
+        <section class="main--breakpoint--container">
+            <section class="container-img-logo">
+                <img class="img-logo" src="./Imagenes/Instagram_logo.svg.png" alt="Es el logo de instagram">
+             </section>
+             
+                 <form action="" class="form-container">
+                     <input type="text" placeholder="Teléfono, usuario o correo" class="form--input">
+                     <input type="password" placeholder="Contraseña" class="form--input"> 
+                     <button type="button" class="form--button"> Iniciar sesión </button>
+                 </form>
+             
+             <section class="container--divisor">
+                 <div></div>
+                    <h1 class="divisor">o</h1>
+                 <div></div>
+             </section>
+             <section class="login--alternative--container">
+                 <div class="login--alternative">
+                    <a href="#" class="alternative--link"> <i class="fa-brands fa-square-facebook"></i>Iniciar sesión con Facebook</a>
+                    <a href="#" class="alternative--link__small">¿Olvidaste tu contraseña?</a>
+                 </div>
+            </section>
         </section>
-        
-            <form action="" class="form-container">
-                <input type="text" placeholder="Teléfono, usuario o correo" class="form--input">
-                <input type="password" placeholder="Contraseña" class="form--input"> 
-                <button type="button" class="form--button"> Iniciar sesión </button>
-            </form>
-        
-        <section class="container--divisor">
-            <div></div>
-               <h1 class="divisor">o</h1>
-            <div></div>
-        </section>
-        <section class="login--alternative--container">
-            <div class="login--alternative">
-               <a href="#" class="alternative--link alternative--link__bold"> <i class="fa-brands fa-square-facebook"></i>Iniciar sesión con Facebook</a>
-               <a href="#" class="alternative--link__small">¿Olvidaste tu contraseña?</a>
-               <h2 class="login--alternative--Registration">¿No tienes una cuenta? <a href="#">Regístrate</a></h2>
-            </div>
+       <section class="section--registration">
+          <h2 class="login--alternative--Registration">¿No tienes una cuenta? <a href="#">Regístrate</a></h2>
        </section>
        <section class="section--downloads">
            <span class="section--dowloads--title">

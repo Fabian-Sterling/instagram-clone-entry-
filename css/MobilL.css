@@ -1,0 +1,7 @@
+body {
+    background-color: var(--main-text);
+}
+
+.main {
+    margin: 0 auto;
+}
