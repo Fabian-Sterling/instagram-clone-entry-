@@ -32,6 +32,10 @@ html{
     background-color: var(--main-text);
 }
 
+.main .img--carousel {
+    display: none;
+}
+
 .main .container-img-logo {
     display: flex;
     justify-content: center;
